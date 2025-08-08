@@ -5,3 +5,5 @@ together
 requests
 plotly
 flask
+prophet
+flask_cors
