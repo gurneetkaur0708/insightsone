@@ -132,7 +132,7 @@ col1, col2, col3 = st.columns([1, 1, 1])
 
 with col1:
     if st.button(" Chat with CompareBot"):
-        st.switch_page("pages/app.py")
+        st.switch_page("pages/App.py")
 
 with col2:
     if st.button("Upload Files for Analysis"):
@@ -141,4 +141,5 @@ with col2:
 with col3:
     if st.button("AI Solutions for BHEL"):
         st.switch_page("pages/solutions.py")
+
 
